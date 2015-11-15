@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/footer" />
+    <include layout="@layout/archive_header" />
+
+    <TextView
+        android:id="@+id/nodata"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="No Data Logged :("
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/footer"
+            android:layout_below="@+id/archive_header"
+            />
+
+
+
+</RelativeLayout>

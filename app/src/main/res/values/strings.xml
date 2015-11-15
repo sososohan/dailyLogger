@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DailyLogger</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="log">Log</string>
+    <string name="amount">Summary</string>
+    <string name="archive">Archive</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="minutes_spinner_array">
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>WORK</item>
+        <item>REST</item>
+        <item>FUN</item>
+        <item>FITNESS</item>
+        <item>FOOD</item>
+        <item>OTHER</item>
+    </string-array>
+
+</resources>

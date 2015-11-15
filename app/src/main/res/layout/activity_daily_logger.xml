@@ -1,0 +1,30 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    >
+    <include layout="@layout/header" />
+    <include layout="@layout/footer" />
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/daily_logger"
+    tools:context=".DailyLogger"
+    android:layout_above="@+id/footer"
+    android:layout_below="@+id/header">
+
+
+    <ListView
+        android:id="@+id/schedule_list_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        >
+    </ListView>
+
+
+</FrameLayout>
+</RelativeLayout>

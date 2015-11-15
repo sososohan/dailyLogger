@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#2E2925"
+    android:gravity="center" >
+
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dip"
+    android:layout_marginTop="-1dip"
+    android:layout_marginBottom="-3dip"
+    android:layout_alignParentLeft="true"
+    android:layout_weight="1"
+    android:background="#3B5998"
+    android:textColor="#FFFFFF"
+    android:onClick="goToLog"
+    android:text="@string/log"
+    />
+
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/amount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="1dip"
+    android:layout_marginLeft="1dip"
+    android:layout_marginTop="-1dip"
+    android:layout_marginBottom="-3dip"
+    android:layout_centerInParent="true"
+    android:layout_weight="1"
+    android:text="@string/amount"
+    android:background="#3B5998"
+    android:textColor="#FFFFFF"
+    android:onClick="goToPercent"
+    />
+
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/archive"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="0dip"
+    android:layout_marginTop="-1dip"
+    android:layout_marginBottom="-3dip"
+    android:layout_alignParentRight="true"
+    android:layout_weight="1"
+    android:background="#3B5998"
+    android:textColor="#FFFFFF"
+    android:text="@string/archive"
+    android:onClick="goToArchive"
+    />
+
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_margin="5dp"-->
+<!--android:text="Footer"-->
+<!--android:textColor="#000000"-->
+<!--android:textSize="20sp" />-->
+</LinearLayout>
